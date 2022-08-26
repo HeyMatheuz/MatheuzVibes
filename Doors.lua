@@ -146,7 +146,7 @@ then w(
 [[[Event Notifier]: Ambush spawned, hide quickly! He can return up to 3-4 times!]]
 ,true)end y.new(H)elseif H.Name=='Lookman'then if Toggles.EVENT_NOTIFIER.Value
 then w('[Event Notifier]: Eyes spawned, look away!',true)end end end j:
-SetWatermark'Linoria Community (OminousVibes)'j:Notify'Loading UI...'do local I=
+SetWatermark'Linoria Community (MatheuzVibes)'j:Notify'Loading UI...'do local I=
 j:CreateWindow'Doors'do local J=I:AddTab'Gameplay'do local K=J:AddLeftTabbox
 'Modifications'local L=K:AddTab'Character Mods'L:AddSlider('WALKSPEED',{Text=
 'Speed Boost',Min=0,Max=20,Default=0,Rounding=1,Suffix=''})L:AddToggle(
@@ -178,8 +178,8 @@ AddTab'Objects'M:AddToggle('DOOR_ESP',{Text='Door ESP',Default=false,Tooltip=
 Tooltip='ESP for items that can be picked up'})M:AddToggle('INTERACT_ESP',{Text=
 'Interactable Chams',Default=true,Tooltip='ESP for interactable items'})end do
 local K=J:AddRightGroupbox'World Render'end end do local J=I:AddTab'Settings'l:
-SetLibrary(j)k:SetLibrary(j)l:SetFolder'OminousVibes'k:SetFolder
-'OminousVibes/doors'k:IgnoreThemeSettings()k:SetIgnoreIndexes{'MenuKeybind'}k:
+SetLibrary(j)k:SetLibrary(j)l:SetFolder'MatheuzVibes'k:SetFolder
+'MatheuzVibes/doors'k:IgnoreThemeSettings()k:SetIgnoreIndexes{'MenuKeybind'}k:
 BuildConfigSection(J)l:ApplyToTab(J)local K=J:AddLeftGroupbox'Menu'K:AddButton(
 'Unload',function()j:Unload()end)K:AddLabel'Menu bind':AddKeyPicker(
 'MenuKeybind',{Default='End',NoUI=true,Text='Menu keybind'})K:AddToggle(
@@ -187,7 +187,7 @@ BuildConfigSection(J)l:ApplyToTab(J)local K=J:AddLeftGroupbox'Menu'K:AddButton(
 KeybindFrame.Visible=Toggles.Keybinds.Value end)K:AddToggle('Watermark',{Text=
 'Show Watermark',Default=true}):OnChanged(function()j:SetWatermarkVisibility(
 Toggles.Watermark.Value)end)local L=J:AddRightGroupbox'Credits'L:AddLabel
-'OminousVibes - Creator'L:AddLabel'Inori @v3rm - UI Library'L:AddLabel
+'MatheuzVibes - Creator'L:AddLabel'Inori @v3rm - UI Library'L:AddLabel
 'Aztup @v3rm - Breaker Assist'L:AddDivider()L:AddLabel'Contributors:'L:AddLabel
 '> IAmAGoodScammer @v3rm'L:AddLabel'> Bob24 @v3rm'L:AddLabel'> brickmane @v3rm'
 end k:LoadAutoloadConfig()end j:Notify'UI Loaded! [Right Ctrl or Right Shift]'n.
