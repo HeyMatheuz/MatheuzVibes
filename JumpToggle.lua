@@ -37,7 +37,7 @@ toggleButton.Parent = frame
 
 -- Variables for jump functionality
 local isJumping = false
-local jumpDelay = 5 -- Customize jump delay here (in seconds)
+local jumpDelay = 1 -- Customize jump delay here (in seconds)
 
 -- Function to make the character jump
 local function jump()
